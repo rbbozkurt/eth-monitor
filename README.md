@@ -71,10 +71,14 @@ Where:
 
 - `-t <maxTransferCount>`: The number of recent transfers to fetch.
 
-For example:
+**For example:**
+
 ```bash
 mvn compile exec:java -Dexec.args="-a 0xF977814e90dA44bFA03b6295A0616a897441aceC -b <balancesApiKey> -f <transfersApiKey> -k <tokensApiKey> -p <pricesApiKey> -t 100"
 ```
+The address **0xF977814e90dA44bFA03b6295A0616a897441aceC** is associated with Binance's hot wallet. This wallet holds significant amounts of Ethereum (ETH) and various ERC-20 tokens, serving as an address for Binance's internal operations.
+
+
 ### Example Output
 
 Once the application has executed, it will display an analysis of the provided Ethereum address, including:
