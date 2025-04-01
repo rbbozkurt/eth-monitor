@@ -88,6 +88,7 @@ Additionally, it will list the token balances, their values in USD, and detailed
 
 ## Demo
 ![ETH Monitor Demo Video](assets/eth_monitor_demo.gif)
+**PS**: Please use your own Alchemy API Key, I have deleted the one used in demo. 
 ## Technologies Used
 
 - **Alchemy API**: Blockchain data provider used to fetch token balances, transaction data, and more.
